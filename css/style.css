@@ -1,0 +1,85 @@
+header img 
+{
+	margin-left: -71px;
+}
+html
+{
+	background: url('../images/backgroundBA.jpg');
+	background-size: auto auto;
+	background-repeat: no-repeat;
+}
+footer p
+{
+	color: white;
+	font-family: arial;
+	font-size: 8px;
+
+}
+footer div
+{
+	 
+	 margin:0 auto auto auto;
+	float: right;
+	width: 385px;
+	height: 62px;
+	background: url('../images/footer-margin.png');
+}
+.encabezado-home
+{
+	height: 100px;
+	margin-bottom: 112px;
+	
+}
+.primer_contenedor
+{
+width: 60%;
+float: left;
+}
+.primer_contenedor p
+{
+color: white;
+font-family: 'Droid Sans', sans-serif !important;
+font-size: 20px;
+font-weight: 400;
+float: left;
+padding-top: 12px;
+padding-right: 22px;
+padding-left: 40px;
+}
+.primer_contenedor img
+{
+	padding-right: 8px;
+}
+.segundo_contenedor
+{
+float: right;
+margin-top: -30px;
+width: 40%;
+}
+.segundo_contenedor img
+{
+	padding: 45px 0 0 78px;
+}
+.segundo_contenedor p
+{
+color: white;
+font-family: 'Droid Sans', sans-serif !important;
+font-size: 16px;
+font-weight: 400;
+margin: 0 5px 0px 5px;
+line-height: 21px;
+}
+.segundo_contenedor p span
+{
+color: #ffbd04;
+font-family: 'Droid Sans', sans-serif !important;
+font-weight: 700;
+font-size: 1em;	
+}
+.wrapper
+{
+margin: 0 auto;
+width: 1000px;
+}
+
+
