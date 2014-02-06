@@ -5,30 +5,72 @@ header img
 html
 {
 	background: url('../images/backgroundBA.jpg');
-	background-size: auto auto;
+	background-size: cover;
 	background-repeat: no-repeat;
+}
+footer
+{
+	 height: 60px;
 }
 footer p
 {
 	color: white;
 	font-family: arial;
 	font-size: 8px;
-
+padding-top: 33px;
+text-align: center;
 }
 footer div
 {
 	 
-	 margin:0 auto auto auto;
+	margin:55px -15px auto auto;
 	float: right;
-	width: 385px;
+	width: 400px;
 	height: 62px;
 	background: url('../images/footer-margin.png');
+}
+.callcenter-activa
+{
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+	padding: 0 5px;
+	text-align: center;
+}
+.cuadro-dialogo-finalizar
+{
+	background: url('../images/contenedor-bancoagricola.png');
+	background-repeat: no-repeat;
+	width: 410px;
+	height: 360px;
 }
 .encabezado-home
 {
 	height: 100px;
 	margin-bottom: 112px;
 	
+}
+.encabezado
+{
+border-bottom: solid 1px;
+border-style: dotted;
+color:white;
+font-family: 'Droid Sans', sans-serif !important;
+font-size: 25px;
+font-style: italic;
+font-weight: 600;
+padding-top: 21px;
+
+}
+.first-contenedor, .second-contenedor
+{
+	padding-top: 30px;
+	width: 50%;
+}
+.first-contenedor
+{
+	float: left;
 }
 .primer_contenedor
 {
@@ -46,9 +88,22 @@ padding-top: 12px;
 padding-right: 22px;
 padding-left: 40px;
 }
+
+.first-contenedor p
+{
+color: white;
+font-family: 'Droid Sans', sans-serif !important;
+font-size: 15px;
+
+}
 .primer_contenedor img
 {
 	padding-right: 8px;
+}
+.second-contenedor
+{
+	
+	float: right;
 }
 .segundo_contenedor
 {
@@ -56,7 +111,7 @@ float: right;
 margin-top: -30px;
 width: 40%;
 }
-.segundo_contenedor img
+.segundo_contenedor a img
 {
 	padding: 45px 0 0 78px;
 }
@@ -69,17 +124,34 @@ font-weight: 400;
 margin: 0 5px 0px 5px;
 line-height: 21px;
 }
-.segundo_contenedor p span
+.segundo_contenedor p span, .first-contenedor p span
 {
 color: #ffbd04;
 font-family: 'Droid Sans', sans-serif !important;
 font-weight: 700;
 font-size: 1em;	
 }
+.texto-footer
+{
+	font-size: 8px;
+	font-family: arial;
+	text-align: center;
+	width: 100%;
+}
+.linea-proceso
+{
+padding-top: 16px;
+padding-left: 55px;
+vertical-align: top;
+}
 .wrapper
 {
 margin: 0 auto;
 width: 1000px;
+min-height: 100%;
+    height: auto !important;
+    height: 100%;
+
 }
 
 
