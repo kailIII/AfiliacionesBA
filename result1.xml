@@ -1,0 +1,15 @@
+<Response>
+      <Header>
+            <id>1200009</id>
+            <idTransaccion>
+            </idTransaccion>
+            <fechaHora>20131128153448</fechaHora>
+            <codigo>00</codigo>
+            <descripcion>PROCESO FINALIZADO SATISFACTORIAMENTE</descripcion>
+      </Header>
+      <Body>
+            <idSolicitud>3acc456e1</idSolicitud>
+            <mensaje>
+            </mensaje>
+      </Body>
+</Response>
